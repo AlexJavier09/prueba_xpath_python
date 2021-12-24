@@ -1,0 +1,10 @@
+Web Scrapping con Xpath y Python
+Noticias de TVN Panamá
+
+Las siguientes líneas de código se probaron en la página de TVN para obtener, de forma exita, las siguientes variables información según las variables.
+
+
+link = //h2[@class = "headline"]/a[@class = "lnk"]/@href
+Titles = //header[@class = "pg-head"]/h1[@class = "pg-bkn-headline"]/text()
+Resumen = //div[@class = "teaser"]/b/p/text()
+Cuerpo = //div[@class = "gdu u14 pg-body mce-body"]/p[@class = "mce"]/text()
