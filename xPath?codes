@@ -8,3 +8,12 @@ link = //h2[@class = "headline"]/a[@class = "lnk"]/@href
 Titles = //header[@class = "pg-head"]/h1[@class = "pg-bkn-headline"]/text()
 Resumen = //div[@class = "teaser"]/b/p/text()
 Cuerpo = //div[@class = "gdu u14 pg-body mce-body"]/p[@class = "mce"]/text()
+
+News of Telemetro
+
+https://www.telemetro.com/
+
+link = //h2[@class = "news-article__title"]/a/@href
+Titles = //h1[@class = "news-headline__title"]/text()
+Resumen = //h2[@class = "news-headline__article-summary"]/text()
+Cuerpo = //p/text()
